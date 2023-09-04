@@ -161,7 +161,7 @@ foreach ($source in $source_path) { # The following instructinos are carried out
     $i += 1 # Increment $source_path counting variable.
 }
 
-[datetime]$end = Get-Date # Set end time for the execcution of the script.
+[datetime]$end = Get-Date # Set end time for the execution of the script.
 $runtime = $end - $start # Calculate the runtime by subtracting the start time from the end time.
 
 echo $runtime # Print the runtime to terminal. This is useful to determine whether the runtime is shorter than the back-up interval.
